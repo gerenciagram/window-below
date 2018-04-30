@@ -32,6 +32,14 @@
 			range: {
 				default: () => ['15px', '105px'],
 				type: Array
+			},
+			opened: {
+				default: () => {},
+				type: Function
+			},
+			closed: {
+				default: () => {},
+				type: Function
 			}
 		},
 		computed: {
@@ -55,6 +63,8 @@
 		watch: {
 			display(value) {
 				this.toggle()
+				if (this.display) this.opened()
+				else this.closed()
 			}
 		},
 		mounted() {
@@ -94,6 +104,7 @@
     top: -1px;
     position: absolute;
     cursor: pointer;
+    border-radius: 0 4px 0 0;
     > i {
     	pointer-events: none
     }

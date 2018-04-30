@@ -1,6 +1,6 @@
 {
 	"name": "window-below",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "src/index.vue",
 	"dependencies": {
 		"marengo": "0.0.3",
