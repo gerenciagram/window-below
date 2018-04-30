@@ -1,0 +1,27 @@
+{
+	"name": "window-below",
+	"version": "0.0.1",
+	"main": "src/index.vue",
+	"dependencies": {
+		"marengo": "0.0.3",
+		"bootstrap": "^4.1.0",
+		"fa5-local": "^0.0.1",
+		"vue": "^2.5.16"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.2",
+		"css-loader": "^0.28.7",
+		"html-loader": "^0.5.5",
+		"node-sass": "^4.9.0",
+		"sass-loader": "^6.0.6",
+		"scss-loader": "0.0.1",
+		"style-loader": "^0.20.2",
+		"vue-loader": "^13.0.5",
+		"vue-template-compiler": "^2.5.16",
+		"webpack": "^3.11.0",
+		"webpack-dev-server": "^2.11.1",
+		"file-loader": "^1.1.11",
+		"url-loader": "^1.0.1"
+	}
+}
